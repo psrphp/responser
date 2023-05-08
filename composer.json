@@ -1,0 +1,14 @@
+{
+    "name": "psrphp/responser",
+    "description": "一个response的发射器",
+    "license": "GPL-3.0",
+    "type": "library",
+    "require": {
+        "psr/http-message": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PsrPHP\\Responser\\": "src/"
+        }
+    }
+}
